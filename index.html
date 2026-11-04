@@ -1,3 +1,4 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <!DOCTYPE html>
 <html lang="en" class="dark scroll-smooth">
 <head>
@@ -61,7 +62,7 @@
       background: #2D4173;
     }
 
-    .bg-grid-pattern {
+    . {
       background-size: 32px 32px;
       background-image: 
         linear-gradient(to right, rgba(255, 255, 255, 0.025) 1px, transparent 1px),
@@ -113,7 +114,7 @@
       border-color: rgba(3,105,161,0.35);
       box-shadow: 0 8px 24px -8px rgba(3,105,161,0.15);
     }
-    html:not(.dark) .bg-grid-pattern {
+    html:not(.dark) . {
       background-image:
         linear-gradient(to right, rgba(0,0,0,0.04) 1px, transparent 1px),
         linear-gradient(to bottom, rgba(0,0,0,0.04) 1px, transparent 1px);
@@ -230,7 +231,7 @@
   </style>
 </head>
 
-<body class="bg-navy-bg text-navy-body font-sans antialiased min-h-screen flex flex-col justify-between selection:bg-sky-500/30 selection:text-sky-300 bg-grid-pattern">
+<body class="bg-navy-bg text-navy-body font-sans antialiased min-h-screen flex flex-col justify-between selection:bg-sky-500/30 selection:text-sky-300 ">
 
   <!-- Toast Notification Container -->
   <div id="toast-container" class="fixed bottom-6 right-6 z-50 flex flex-col gap-3 pointer-events-none"></div>
@@ -260,7 +261,7 @@
       </a>
 
       <!-- Navigation Links & Quick Action -->
-      <div class="flex items-center gap-2 sm:gap-4 font-mono text-xs font-medium text-slate-300">
+      <div class="flex items-center gap-2 sm:gap-4 text-xs font-medium text-slate-300">
         <a href="#competencies" class="hidden md:inline-block hover:text-sky-400 transition-colors">COMPETENCIES</a>
         <a href="#experience" class="hidden md:inline-block hover:text-sky-400 transition-colors">EXPERIENCE</a>
         <a href="#equivalency" class="hidden lg:inline-block hover:text-sky-400 transition-colors">EQUIVALENCY</a>
@@ -271,7 +272,7 @@
           <svg class="w-3.5 h-3.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"/>
           </svg>
-          <span class="hidden sm:inline">COPY EMAIL</span>
+          <span class="hidden sm:inline">Email</span>
         </button>
 
         <button id="theme-toggle" onclick="toggleTheme()" class="px-2.5 py-2 rounded-lg bg-navy-card border border-navy-border text-slate-300 hover:text-white hover:border-sky-500/50 transition-all text-sm flex-shrink-0" title="Toggle light/dark mode">
@@ -301,9 +302,9 @@
         <div class="lg:col-span-7 space-y-6">
           
           <!-- Status Tag -->
-          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-navy-card border border-sky-500/30 font-mono text-xs text-sky-300 shadow-glow-sky">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-navy-card border border-sky-500/30 text-xs text-sky-300 shadow-glow-sky">
             <span class="w-2 h-2 rounded-full bg-sky-400 animate-ping"></span>
-            <span>GMP PILOT PLANT SUPERVISOR &amp; PROCESS LEAD</span>
+            <span>GMP Pilot Plant Supervisor · Process Lead</span>
           </div>
 
           <!-- Hero Headline -->
@@ -317,7 +318,7 @@
           </p>
 
           <!-- Core Badges -->
-          <div class="flex flex-wrap gap-2.5 font-mono text-xs pt-1">
+          <div class="flex flex-wrap gap-2.5 text-xs pt-1">
             <span class="px-3 py-1.5 rounded-md bg-navy-card border border-navy-border text-slate-300 flex items-center gap-1.5">
               <span class="text-sky-400">✓</span> A.S. Chemistry
             </span>
@@ -424,7 +425,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
 
           <div class="lg:col-span-8 space-y-4">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/20 text-sky-300 font-mono text-xs border border-sky-500/40">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/20 text-sky-300 text-xs border border-sky-500/40">
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
               <span>BACKGROUND</span>
             </div>
@@ -473,7 +474,7 @@
       
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
         <div>
-          <div class="font-mono text-xs font-semibold text-sky-400 tracking-wider uppercase">CORE COMPETENCIES</div>
+          <div class="text-xs font-semibold text-sky-400 tracking-wide uppercase">Core Competencies</div>
           <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight mt-1">
             What I Bring to the Floor
           </h2>
@@ -494,7 +495,7 @@
           <p class="text-sm text-navy-body leading-relaxed mb-6">
             Direct scale-up execution bridging R&amp;D trial experiments into standardized, reproducible pilot plant runs across diverse solvent and thermal operations.
           </p>
-          <ul class="space-y-2.5 font-mono text-xs text-slate-300">
+          <ul class="space-y-2.5 text-sm text-slate-300">
             <li class="flex items-center gap-2"><span class="text-sky-400">►</span> High-Pressure Homogenization &amp; Spray Drying</li>
             <li class="flex items-center gap-2"><span class="text-sky-400">►</span> Solvent Distillation, Extraction &amp; Reflux Units</li>
             <li class="flex items-center gap-2"><span class="text-sky-400">►</span> Rotary Evaporation &amp; Wiped Film Evaporators</li>
@@ -511,7 +512,7 @@
           <p class="text-sm text-navy-body leading-relaxed mb-6">
             Proactive leadership enforcing strict cGMP/GDP compliance, hazard mitigation, thorough root-cause investigations, and audit readiness.
           </p>
-          <ul class="space-y-2.5 font-mono text-xs text-slate-300">
+          <ul class="space-y-2.5 text-sm text-slate-300">
             <li class="flex items-center gap-2"><span class="text-cobalt-400">►</span> Process Hazard Analysis (PHA) &amp; MOC Programs</li>
             <li class="flex items-center gap-2"><span class="text-cobalt-400">►</span> SOP Authoring, Batch Record Auditing &amp; GDP Review</li>
             <li class="flex items-center gap-2"><span class="text-cobalt-400">►</span> High-Risk Permitting (Hot Work, Hazardous Materials)</li>
@@ -528,7 +529,7 @@
           <p class="text-sm text-navy-body leading-relaxed mb-6">
             Direct supervision of shop floor personnel, facility readiness management, cleaning verification, and enterprise SAP execution.
           </p>
-          <ul class="space-y-2.5 font-mono text-xs text-slate-300">
+          <ul class="space-y-2.5 text-sm text-slate-300">
             <li class="flex items-center gap-2"><span class="text-indigo-400">►</span> Direct Management &amp; Mentorship of 3 Shift Reports</li>
             <li class="flex items-center gap-2"><span class="text-indigo-400">►</span> Enterprise SAP Modules: PP (Production), QM, MM</li>
             <li class="flex items-center gap-2"><span class="text-indigo-400">►</span> Resource Allocation Across 6–7 Parallel Project Streams</li>
@@ -545,7 +546,7 @@
           <p class="text-sm text-navy-body leading-relaxed mb-6">
             Leveraging dual Computer Science and Chemistry degrees to apply modern data analytics, query optimization, and OT workflows to plant metrics.
           </p>
-          <ul class="space-y-2.5 font-mono text-xs text-slate-300">
+          <ul class="space-y-2.5 text-sm text-slate-300">
             <li class="flex items-center gap-2"><span class="text-sky-400">►</span> Python (pandas, NumPy) for Batch Profile Analysis</li>
             <li class="flex items-center gap-2"><span class="text-sky-400">►</span> SQL Database Querying &amp; Data Extraction</li>
             <li class="flex items-center gap-2"><span class="text-sky-400">►</span> ISPE GMP Fundamentals &amp; Continuous Learning</li>
@@ -564,7 +565,7 @@
         
         <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-navy-border pb-8 mb-10">
           <div>
-            <div class="font-mono text-xs font-semibold text-sky-400 tracking-wider uppercase">CAREER HISTORY</div>
+            <div class="text-xs font-semibold text-sky-400 tracking-wide uppercase">Career History</div>
             <h2 class="text-3xl font-extrabold text-white tracking-tight mt-1">
               International Flavors &amp; Fragrances (IFF)
             </h2>
@@ -602,7 +603,7 @@
                 Direct daily production activities across cGMP-aligned pilot plant operations, executing process setups and batch runs both hands-on and in a supervisory capacity to meet safety, quality, and trial requirements.
               </p>
 
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-3 font-mono text-xs text-slate-300 pt-2">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-slate-300 pt-2">
                 <div class="bg-slate-950 p-3 rounded-lg border border-navy-border">
                   <span class="text-sky-400 font-bold block mb-1">▶ FACILITY &amp; QUALITY READINESS</span>
                   Direct preventative maintenance programs, CIP cleaning documentation, consumable inventory, and building housekeeping utilizing SAP (PP, QM, MM).
@@ -636,7 +637,7 @@
                 Directed scale-up production campaigns for spray-dried and processed food systems, establishing Critical Process Parameters (CPPs) and ensuring seamless product handoffs within cGMP procedures.
               </p>
 
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-3 font-mono text-xs text-slate-300 pt-2">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-slate-300 pt-2">
                 <div class="bg-slate-950 p-3 rounded-lg border border-navy-border">
                   <span class="text-sky-400 font-bold block mb-1">▶ PROCESS INTEGRATION</span>
                   Incorporated high-pressure homogenization and automated spray drying technologies into downstream operations, expanding pilot capabilities.
@@ -683,7 +684,7 @@
       
       <div class="glass-navy-card p-8 rounded-3xl border border-navy-border">
         
-        <div class="font-mono text-xs font-semibold text-sky-400 tracking-wider uppercase mb-1">ACADEMIC CREDENTIALS</div>
+        <div class="font-mono text-xs font-semibold text-sky-400 tracking-wider uppercase mb-1">Academic Credentials</div>
         <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight mb-8">
           Education &amp; Compliance Training
         </h2>
@@ -740,8 +741,8 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           
           <div class="lg:col-span-7 space-y-4">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/20 text-sky-300 font-mono text-xs border border-sky-500/40">
-              <span>CONTACT ENDPOINT</span>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-500/20 text-sky-300 text-xs border border-sky-500/40">
+              <span>Get in Touch</span>
             </div>
             
             <h2 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
@@ -754,30 +755,22 @@
           </div>
 
           <!-- Action Buttons -->
-          <div class="lg:col-span-5 flex flex-col gap-3 font-mono text-xs">
-            
+          <div class="lg:col-span-5 flex flex-col gap-3 text-sm">
+
             <button onclick="copyEmail('gkwityn@gmail.com')" class="p-4 rounded-xl bg-navy-bg hover:bg-navy-cardHover border border-navy-border hover:border-sky-500/50 text-left transition-all flex items-center justify-between group">
               <div>
-                <div class="text-[10px] text-slate-400 uppercase">PRIMARY DOMAIN EMAIL</div>
-                <div class="text-sm font-bold text-white group-hover:text-sky-400 transition-colors">gkwityn@gmail.com</div>
+                <div class="text-xs text-slate-400 mb-1">Email</div>
+                <div class="font-semibold text-white group-hover:text-sky-400 transition-colors">gkwityn@gmail.com</div>
               </div>
-              <span class="px-3 py-1 rounded bg-sky-500/20 text-sky-300 border border-sky-500/30 text-[10px]">COPY</span>
-            </button>
-
-            <button onclick="copyEmail('gkwityn@gmail.com')" class="p-4 rounded-xl bg-navy-bg hover:bg-navy-cardHover border border-navy-border hover:border-cobalt-500/50 text-left transition-all flex items-center justify-between group">
-              <div>
-                <div class="text-[10px] text-slate-400 uppercase">DIRECT EMAIL</div>
-                <div class="text-sm font-bold text-white group-hover:text-cobalt-400 transition-colors">gkwityn@gmail.com</div>
-              </div>
-              <span class="px-3 py-1 rounded bg-sky-500/20 text-sky-300 border border-sky-500/30 text-[10px]">COPY</span>
+              <span class="px-3 py-1.5 rounded-lg bg-sky-500/20 text-sky-300 border border-sky-500/30 text-xs font-medium">Copy</span>
             </button>
 
             <a href="https://linkedin.com/in/greg-kwityn-9995b5bb" target="_blank" rel="noopener" class="p-4 rounded-xl bg-gradient-to-r from-sky-400 to-cobalt-500 hover:from-sky-300 hover:to-cobalt-400 text-slate-950 font-bold transition-all flex items-center justify-between shadow-glow-sky">
               <div>
-                <div class="text-[10px] text-slate-950 opacity-80 uppercase">LINKEDIN NETWORK</div>
-                <div class="text-sm font-bold">linkedin.com/in/gregkwityn</div>
+                <div class="text-xs text-slate-950 opacity-70 mb-1">LinkedIn</div>
+                <div class="font-semibold">linkedin.com/in/greg-kwityn</div>
               </div>
-              <span class="px-3 py-1 rounded bg-slate-950 text-sky-400 text-[10px]">OPEN ↗</span>
+              <span class="px-3 py-1.5 rounded-lg bg-slate-950/20 text-slate-950 text-xs font-medium">Connect ↗</span>
             </a>
 
           </div>
@@ -791,19 +784,19 @@
   </main>
 
   <!-- ================= FOOTER ================= -->
-  <footer class="border-t border-navy-border bg-navy-bg py-8 px-4 sm:px-8 font-mono text-xs text-navy-body">
+  <footer class="border-t border-navy-border bg-navy-bg py-8 px-4 sm:px-8 text-xs text-navy-body">
     <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
       
       <div class="flex items-center gap-2">
         <span class="w-2 h-2 rounded-full bg-sky-400"></span>
-        <span class="font-bold text-slate-200">GREGKWITYN.DEV &copy; 2026</span>
-        <span class="text-slate-400">| MONMOUTH COUNTY, NJ</span>
+        <span class="font-bold text-slate-200">gregkwityn.dev © 2026</span>
+        <span class="text-slate-400">| Monmouth County, NJ</span>
       </div>
 
       <div class="flex items-center gap-6">
-        <a href="#hero" class="hover:text-sky-400 transition-colors">BACK TO TOP ↑</a>
-        <a href="mailto:gkwityn@gmail.com" class="hover:text-sky-400 transition-colors">GKWITYN@GMAIL.COM</a>
-        <a href="https://linkedin.com/in/greg-kwityn-9995b5bb" target="_blank" rel="noopener" class="hover:text-sky-400 transition-colors">LINKEDIN</a>
+        <a href="#hero" class="hover:text-sky-400 transition-colors">Back to top ↑</a>
+        <a href="mailto:gkwityn@gmail.com" class="hover:text-sky-400 transition-colors">gkwityn@gmail.com</a>
+        <a href="https://linkedin.com/in/greg-kwityn-9995b5bb" target="_blank" rel="noopener" class="hover:text-sky-400 transition-colors">LinkedIn</a>
       </div>
 
     </div>
@@ -903,3 +896,4 @@
 
 </body>
 </html>
+</body></html>
